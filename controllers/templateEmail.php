@@ -36,9 +36,9 @@ class templateEmail
               crossorigin="anonymous"
             />
             <!-- <![endif]-->
-        
+
             <title>Material Design for Bootstrap</title>
-        
+
             <style type="text/css">
               body {
                 width: 100%;
@@ -50,40 +50,40 @@ class templateEmail
                 mso-margin-bottom-alt: 0px;
                 mso-padding-alt: 0px 0px 0px 0px;
               }
-        
+
               p,
               h1,
               h2,
               h3,
               h4 {
                 color: #3f3f3f;
-        
+
                 font-family: Nunito, sans-serif;
-        
+
                 margin-top: 0;
                 margin-bottom: 0;
                 padding-top: 0;
                 padding-bottom: 0;
               }
-        
+
               span.preheader {
                 display: none;
                 font-size: 1px;
               }
-        
+
               html {
                 width: 100%;
               }
-        
+
               table {
                 font-size: 14px;
                 border: 0;
               }
-        
+
               .title {
                 font-family: Nunito, sans-serif;
               }
-        
+
               .transbox {
                 margin: 30px;
                 background-color: #000000;
@@ -91,99 +91,99 @@ class templateEmail
                 filter: alpha(opacity=65);
                 /* For IE8 and earlier */
               }
-        
+
               /* ----------- responsivity ----------- */
-        
+
               @media only screen and (max-width: 640px) {
                 /*------ top header ------ */
                 .main-header {
                   font-size: 20px !important;
                 }
-        
+
                 .main-section-header {
                   font-size: 28px !important;
                 }
-        
+
                 .show {
                   display: block !important;
                 }
-        
+
                 .hide {
                   display: none !important;
                 }
-        
+
                 .align-center {
                   text-align: center !important;
                 }
-        
+
                 .no-bg {
                   background: none !important;
                 }
-        
+
                 /*----- main image -------*/
                 .main-image img {
                   width: 440px !important;
                   height: auto !important;
                 }
-        
+
                 /* ====== divider ====== */
                 .divider img {
                   width: 440px !important;
                 }
-        
+
                 /*-------- container --------*/
                 .container590 {
                   width: 440px !important;
                 }
-        
+
                 .container580 {
                   width: 400px !important;
                 }
-        
+
                 .main-button {
                   width: 220px !important;
                 }
-        
+
                 /*-------- secions ----------*/
                 .section-img img {
                   width: 320px !important;
                   height: auto !important;
                 }
-        
+
                 .team-img img {
                   width: 100% !important;
                   height: auto !important;
                 }
               }
-        
+
               @media only screen and (max-width: 479px) {
                 /*------ top header ------ */
                 .main-header {
                   font-size: 18px !important;
                 }
-        
+
                 .main-section-header {
                   font-size: 26px !important;
                 }
-        
+
                 /* ====== divider ====== */
                 .divider img {
                   width: 280px !important;
                 }
-        
+
                 /*-------- container --------*/
                 .container590 {
                   width: 280px !important;
                 }
-        
+
                 .container590 {
                   width: 280px !important;
                 }
-        
+
                 .container580 {
                   width: 260px !important;
                 }
-        
+
                 /*-------- secions ----------*/
                 .section-img img {
                   width: 280px !important;
@@ -192,7 +192,7 @@ class templateEmail
               }
             </style>
           </head>
-        
+
           <body
             class="respond"
             leftmargin="0"
@@ -212,9 +212,9 @@ class templateEmail
                 </td>
               </tr>
             </table>
-        
+
             <!-- pre-header end -->
-        
+
             <!-- big image section -->
             <table
               border="0"
@@ -261,13 +261,13 @@ class templateEmail
                         </div>
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td height="10" style="font-size: 10px; line-height: 10px;">
                         &nbsp;
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td align="center">
                         <table
@@ -286,13 +286,13 @@ class templateEmail
                         </table>
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td height="20" style="font-size: 20px; line-height: 20px;">
                         &nbsp;
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td align="center">
                         <table
@@ -310,21 +310,19 @@ class templateEmail
                             >
                               <div style="line-height: 24px; text-align: justify">
                                 <p>
-                                  Estamos muy contentos de que formas parte del
-                                  proyecto, esto demuestra que de verdad comprendes la
-                                  importancia de una buena educación. Ojalá y todas las
-                                  madres y los padres del mundo pensaran como tú. 💖🤗
+                                 Aquí tienes el consejo que te sugerimos leer esta semana. 💖🤗
                                 </p>
                                 <br />
                                 <p>
-                                  ¿Te imaginas como sería el mundo en el que vivirían
-                                  nuestros hijos si todas las madres y padres se
-                                  registraran como tú has hecho en proyecto arena?
-                                  Sueños a parte, y para que te hagas una mejor idea de
-                                  lo que vas a ir recibiendo semanalmente aquí tienes el
-                                  consejo que te hubiera llegado la semana pasada. Ha
-                                  sido un placer saludarte. Hasta la próxima semana. Un
-                                  abrazo. 🤰🙂
+                                  Por cierto, gracias por seguir formando parte de este precioso proyecto. 🤰🙂
+                                </p>
+                                <br />
+
+                                <p>
+                                  Esperamos que tengas una semana estupenda.
+                                </p>
+                                <p>
+                                  Un abrazo!
                                 </p>
                               </div>
                             </td>
@@ -332,7 +330,7 @@ class templateEmail
                         </table>
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td height="25" style="font-size: 25px; line-height: 25px;">
                         &nbsp;
@@ -341,7 +339,7 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr class="hide">
                 <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
               </tr>
@@ -349,9 +347,9 @@ class templateEmail
                 <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end section -->
-        
+
             <!--  50% image -->
             <table
               border="0"
@@ -398,7 +396,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           width="5"
@@ -418,7 +416,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           width="260"
@@ -439,13 +437,13 @@ class templateEmail
                               </div>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="15" style="font-size: 12px; line-height: 12px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td align="left">
                               <table
@@ -477,13 +475,13 @@ class templateEmail
                               </table>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="15" style="font-size: 12px; line-height: 12px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td
                               align="left"
@@ -498,13 +496,13 @@ class templateEmail
                               </div>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="25" style="font-size: 25px; line-height: 25px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td align="left">
                               <table
@@ -532,7 +530,7 @@ class templateEmail
                                           &nbsp;
                                         </td>
                                       </tr>
-        
+
                                       <tr>
                                         <td
                                           align="center"
@@ -547,7 +545,7 @@ class templateEmail
                                           </div>
                                         </td>
                                       </tr>
-        
+
                                       <tr>
                                         <td
                                           height="8"
@@ -568,14 +566,14 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr>
                 <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end section -->
-        
+
             <!-- contact section -->
             <table
               border="0"
@@ -591,7 +589,7 @@ class templateEmail
               <tr>
                 <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
               </tr>
-        
+
               <tr>
                 <td
                   height="60"
@@ -600,7 +598,7 @@ class templateEmail
                   &nbsp;
                 </td>
               </tr>
-        
+
               <tr>
                 <td align="center">
                   <table
@@ -637,13 +635,13 @@ class templateEmail
                               /></a>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="25" style="font-size: 25px; line-height: 25px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td
                               align="left"
@@ -652,7 +650,7 @@ class templateEmail
                             ></td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           width="200"
@@ -698,14 +696,14 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr>
                 <td height="60" style="font-size: 60px; line-height: 60px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end section -->
-        
+
             <!-- footer ====== -->
             <table
               border="0"
@@ -717,7 +715,7 @@ class templateEmail
               <tr>
                 <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
               </tr>
-        
+
               <tr>
                 <td align="center">
                   <table
@@ -751,7 +749,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           align="left"
@@ -771,7 +769,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           align="right"
@@ -806,12 +804,12 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr>
                 <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end footer ====== -->
           </body>
         </html>
@@ -822,7 +820,7 @@ class templateEmail
     public function newRegister($url, $title)
     {
         return $temp =
-        '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+            '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
         <html xmlns:v="urn:schemas-microsoft-com:vml">
           <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -846,9 +844,9 @@ class templateEmail
               crossorigin="anonymous"
             />
             <!-- <![endif]-->
-        
+
             <title>Material Design for Bootstrap</title>
-        
+
             <style type="text/css">
               body {
                 width: 100%;
@@ -860,40 +858,40 @@ class templateEmail
                 mso-margin-bottom-alt: 0px;
                 mso-padding-alt: 0px 0px 0px 0px;
               }
-        
+
               p,
               h1,
               h2,
               h3,
               h4 {
                 color: #3f3f3f;
-        
+
                 font-family: Nunito, sans-serif;
-        
+
                 margin-top: 0;
                 margin-bottom: 0;
                 padding-top: 0;
                 padding-bottom: 0;
               }
-        
+
               span.preheader {
                 display: none;
                 font-size: 1px;
               }
-        
+
               html {
                 width: 100%;
               }
-        
+
               table {
                 font-size: 14px;
                 border: 0;
               }
-        
+
               .title {
                 font-family: Nunito, sans-serif;
               }
-        
+
               .transbox {
                 margin: 30px;
                 background-color: #000000;
@@ -901,99 +899,99 @@ class templateEmail
                 filter: alpha(opacity=65);
                 /* For IE8 and earlier */
               }
-        
+
               /* ----------- responsivity ----------- */
-        
+
               @media only screen and (max-width: 640px) {
                 /*------ top header ------ */
                 .main-header {
                   font-size: 20px !important;
                 }
-        
+
                 .main-section-header {
                   font-size: 28px !important;
                 }
-        
+
                 .show {
                   display: block !important;
                 }
-        
+
                 .hide {
                   display: none !important;
                 }
-        
+
                 .align-center {
                   text-align: center !important;
                 }
-        
+
                 .no-bg {
                   background: none !important;
                 }
-        
+
                 /*----- main image -------*/
                 .main-image img {
                   width: 440px !important;
                   height: auto !important;
                 }
-        
+
                 /* ====== divider ====== */
                 .divider img {
                   width: 440px !important;
                 }
-        
+
                 /*-------- container --------*/
                 .container590 {
                   width: 440px !important;
                 }
-        
+
                 .container580 {
                   width: 400px !important;
                 }
-        
+
                 .main-button {
                   width: 220px !important;
                 }
-        
+
                 /*-------- secions ----------*/
                 .section-img img {
                   width: 320px !important;
                   height: auto !important;
                 }
-        
+
                 .team-img img {
                   width: 100% !important;
                   height: auto !important;
                 }
               }
-        
+
               @media only screen and (max-width: 479px) {
                 /*------ top header ------ */
                 .main-header {
                   font-size: 18px !important;
                 }
-        
+
                 .main-section-header {
                   font-size: 26px !important;
                 }
-        
+
                 /* ====== divider ====== */
                 .divider img {
                   width: 280px !important;
                 }
-        
+
                 /*-------- container --------*/
                 .container590 {
                   width: 280px !important;
                 }
-        
+
                 .container590 {
                   width: 280px !important;
                 }
-        
+
                 .container580 {
                   width: 260px !important;
                 }
-        
+
                 /*-------- secions ----------*/
                 .section-img img {
                   width: 280px !important;
@@ -1002,7 +1000,7 @@ class templateEmail
               }
             </style>
           </head>
-        
+
           <body
             class="respond"
             leftmargin="0"
@@ -1022,9 +1020,9 @@ class templateEmail
                 </td>
               </tr>
             </table>
-        
+
             <!-- pre-header end -->
-        
+
             <!-- big image section -->
             <table
               border="0"
@@ -1071,13 +1069,13 @@ class templateEmail
                         </div>
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td height="10" style="font-size: 10px; line-height: 10px;">
                         &nbsp;
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td align="center">
                         <table
@@ -1096,13 +1094,13 @@ class templateEmail
                         </table>
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td height="20" style="font-size: 20px; line-height: 20px;">
                         &nbsp;
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td align="center">
                         <table
@@ -1142,7 +1140,7 @@ class templateEmail
                         </table>
                       </td>
                     </tr>
-        
+
                     <tr>
                       <td height="25" style="font-size: 25px; line-height: 25px;">
                         &nbsp;
@@ -1151,7 +1149,7 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr class="hide">
                 <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
               </tr>
@@ -1159,9 +1157,9 @@ class templateEmail
                 <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end section -->
-        
+
             <!--  50% image -->
             <table
               border="0"
@@ -1208,7 +1206,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           width="5"
@@ -1228,7 +1226,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           width="260"
@@ -1249,13 +1247,13 @@ class templateEmail
                               </div>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="15" style="font-size: 12px; line-height: 12px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td align="left">
                               <table
@@ -1287,13 +1285,13 @@ class templateEmail
                               </table>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="15" style="font-size: 12px; line-height: 12px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td
                               align="left"
@@ -1308,13 +1306,13 @@ class templateEmail
                               </div>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="25" style="font-size: 25px; line-height: 25px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td align="left">
                               <table
@@ -1342,7 +1340,7 @@ class templateEmail
                                           &nbsp;
                                         </td>
                                       </tr>
-        
+
                                       <tr>
                                         <td
                                           align="center"
@@ -1357,7 +1355,7 @@ class templateEmail
                                           </div>
                                         </td>
                                       </tr>
-        
+
                                       <tr>
                                         <td
                                           height="8"
@@ -1378,14 +1376,14 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr>
                 <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end section -->
-        
+
             <!-- contact section -->
             <table
               border="0"
@@ -1401,7 +1399,7 @@ class templateEmail
               <tr>
                 <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
               </tr>
-        
+
               <tr>
                 <td
                   height="60"
@@ -1410,7 +1408,7 @@ class templateEmail
                   &nbsp;
                 </td>
               </tr>
-        
+
               <tr>
                 <td align="center">
                   <table
@@ -1447,13 +1445,13 @@ class templateEmail
                               /></a>
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td height="25" style="font-size: 25px; line-height: 25px;">
                               &nbsp;
                             </td>
                           </tr>
-        
+
                           <tr>
                             <td
                               align="left"
@@ -1462,7 +1460,7 @@ class templateEmail
                             ></td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           width="200"
@@ -1508,14 +1506,14 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr>
                 <td height="60" style="font-size: 60px; line-height: 60px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end section -->
-        
+
             <!-- footer ====== -->
             <table
               border="0"
@@ -1527,7 +1525,7 @@ class templateEmail
               <tr>
                 <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
               </tr>
-        
+
               <tr>
                 <td align="center">
                   <table
@@ -1561,7 +1559,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           align="left"
@@ -1581,7 +1579,7 @@ class templateEmail
                             </td>
                           </tr>
                         </table>
-        
+
                         <table
                           border="0"
                           align="right"
@@ -1616,16 +1614,16 @@ class templateEmail
                   </table>
                 </td>
               </tr>
-        
+
               <tr>
                 <td height="25" style="font-size: 25px; line-height: 25px;">&nbsp;</td>
               </tr>
             </table>
-        
+
             <!-- end footer ====== -->
           </body>
-        </html>
-        ';
+        </html>'
+        ;
 
     }
 

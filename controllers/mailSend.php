@@ -3,8 +3,8 @@
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 
-require 'ext/PHPMailer/PHPMailer.php';
-require 'ext/PHPMailer/SMTP.php';
+require '/home/sueduca1/public_html/enviocorreos/ext/PHPMailer/PHPMailer.php';
+require '/home/sueduca1/public_html/enviocorreos/ext/PHPMailer/SMTP.php';
 
 class MailSend
 {
@@ -113,6 +113,7 @@ class MailSend
      */
     public function sendData($date, $email, $user)
         {
+            
             $getDates = new GetDate();
             $birthDay = new DateTime($date);
 
@@ -140,7 +141,6 @@ class MailSend
                     $category = null;
                     break;
             }
-
             if ($category != null) {
 
                 $plantilla = new sqlModel();
@@ -159,6 +159,8 @@ class MailSend
                 $body = $html->newRegister($post[0], $post[1]);
                 $SendMsg->sendMail($smtp, $body, $email, $user, "Hola $user 🎇🌠 te damos la bienvenida a proyecto arena");
             }
+                //code...
+           
         }
 
     public function postTemp($post,$name, $email, $weeks, $dateNow,$postNow,$id)
@@ -173,7 +175,7 @@ class MailSend
                 $nombre = $name;
                 $SendMsg = new MailSend();
 
-                $SendMsg->sendMail($smtp, $body,  $email, $name, "'CONSEJO SEMANAL 🌟 Hola $name aquí tienes el artículo que te sugerimos leer hoy'");
+                $SendMsg->sendMail($smtp, $body,  $email, $name, "Hola $name, ¿Qué tal?");
                 $SendMsg->updateWeek($weeks, $dateNow, $postNow, $id);
 
         }
