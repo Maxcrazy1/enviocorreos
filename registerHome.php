@@ -18,6 +18,7 @@ $send = new MailSend();
         if (is_null($data[$i])) {
         }else{
         $send->sendData($data[$i], $email, $user);
+        
     }
 
 } 
