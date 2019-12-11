@@ -38,7 +38,7 @@
 			$stmt = null;
 		}
 
-
+		
 		public function mdlCrear($tabla, $campos, $valores){
 			// $pdo  = Conexion::conectar();
 			$stmt = $this->con->prepare("INSERT INTO $tabla ($campos) VALUES($valores)");
@@ -46,6 +46,27 @@
 				return 'ok';
 			}else{
 				return 'error';
+			}
+			$stmt->close();
+			$stmt = null;
+		}
+		
+		/**
+		 * Función para eliminar items de la base de datos
+		 * 
+		 * @param mixed $tabla - tabla de donde se eliminaran los items
+		 * @param mixed $condicion - condición de borrado
+		 */
+		public function mdlBorrar($tabla, $condicion){
+			if($condicion==""){
+				$stmt = $this->con->prepare("DELETE FROM $tabla");
+			}else{
+				$stmt = $this->con->prepare("DELETE FROM $tabla WHERE $condicion");
+			}
+			if($stmt -> execute()){
+				return "ok";
+			}else{
+				return $stmt->errorInfo();	
 			}
 			$stmt->close();
 			$stmt = null;
@@ -110,20 +131,7 @@
 
 	
 
-		// static public function mdlBorrar($tabla, $condicion){
-		// 	if($condicion==""){
-		// 		$stmt = Conexion::conectar()->prepare("DELETE FROM $tabla");
-		// 	}else{
-		// 		$stmt = Conexion::conectar()->prepare("DELETE FROM $tabla WHERE $condicion");
-		// 	}
-		// 	if($stmt -> execute()){
-		// 		return "ok";
-		// 	}else{
-		// 		return $stmt->errorInfo();	
-		// 	}
-		// 	$stmt->close();
-		// 	$stmt = null;
-		// }
+		
 
 		// static public function mdlAlter($tabla,$opciones){
 
